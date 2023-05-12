@@ -1,0 +1,160 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #ffbf01;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(157, 50, 50), rgb(74, 74, 75)) fixed;
+}
+
+#container{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 800px;
+  max-width: 80%;
+  background: rgb(37, 37, 37);
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#deletingContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delBtn{
+  margin-left: 24px;
+}
+
+#allQuestions{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#clearQuestion{
+  padding: 5px 10px;
+  margin: 5px;
+  width: 500px;
+}
+
+#questions{
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+
+#create{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: large;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.questions{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#addQuestion{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 30px;
+  background: rgb(74, 74, 75);
+}
+
+.answers{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+.addAnswers{
+  width: 95%;
+  background: rgb(74, 74, 75);
+}
+
+#submit{
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-bottom: 25px;
+  background: rgb(74, 74, 75);
+  color:#ffbf01;
+  border-radius: 3px;
+}
+
+#backToGame{
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 25px;
+  background: rgb(74, 74, 75);
+  color:#ffbf01;
+  border-radius: 3px;
+}
+
+.delBtn{
+  background-color: #ffbf01;
+  border-radius: 3px;
+}
+
+.delBtn img{
+  width: 17px;
+  height: 20px;
+}
+
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color:  rgb(74, 74, 75);
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid  #ffbf01;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ffbf01;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #ffbf01;
+}
+
+::placeholder { 
+  color: #ffbf01;
+}
+
+input{
+  color: #ffbf01;
+}
+
+input:focus{
+  color: #ffbf01;
+ outline-color: #ffbf01;
+}
+
+

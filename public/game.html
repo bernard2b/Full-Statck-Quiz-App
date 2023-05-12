@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.game.css">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <div class="hide" id="show"> show me </div> -->
+  <button id="start" onclick="startShowing()"> START THE QUIZ </button>
+  <div id="container" class="hide">
+    <div id="quiz">
+    <h1 >THE QUIZ</h1>
+    <h2 id="time">TIME:</h2>
+    <h2 >SCORE</h2>
+   </div>
+
+
+    <div id="score">SCORE:<div id="score"></div></div>
+
+    <div id="questions"><p id="questionId"></p></div>
+
+    <div id="questionContainer">
+
+
+        <div id="answerButtons">
+          <button class="button" id="first_p">first</button>
+          <button class="button" id="second_p">second</button>
+          <button class="button" id="third_p">third</button>
+          <button class="button" id="fourth_p">fourth</button>
+        </div>
+
+        <!-- <div id="controls">
+          <button id="startGame"></button>
+          <button id="nextGame"></button>
+        </div> -->
+    </div>
+    <div id="questions">
+      <button id="manageQuestions">MANAGE QUESTIONS</button>
+    </div>
+  </div>
+  <script src="/static/index.game.js"></script>
+</body>
+</html>
